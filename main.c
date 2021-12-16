@@ -6,9 +6,12 @@
 /*   By: dalves-p <dalves-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/13 20:54:29 by dalves-p          #+#    #+#             */
-/*   Updated: 2021/06/25 22:27:14 by dalves-p         ###   ########.fr       */
+/*   Updated: 2021/12/16 16:07:24 by dalves-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Para compilar:
+// clang get_next_line_utils.c get_next_line.c main.c -D BUFFER_SIZE=50 && ./a.out
 
 #include <unistd.h>
 #include <stdlib.h>
